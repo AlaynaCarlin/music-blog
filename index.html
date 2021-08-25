@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=10">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Robo+Condensed:wght@300display=swap"              rel="stylesheet">
+    <link ref="text/css" rel="stylesheet" href="style.css"/>
+    <title>Music Blog</title>
+    <!-- 
+        Holds metadata / information we don't see.
+            -links, viewport info, dicument title, etc.
+     -->
+     <!-- 3 ways to use CSS with our doc: 
+        1. embed the CSSwithin a <style> tag
+        2. inline styling within another element
+        3. link a style sheet to our HTML document  -->
+    <!-- <style>
+        body {
+            background-color: black;
+        }
+    </style> -->
+</head>
+<!-- <body style="background-color:palegreen;">  -->
+    <body>
+    <header>
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- (li>span{Home})+(li>a)*3-->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photots</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <!-- Main specifies the main content
+        There can only be one!
+        Cannot be a descendent (child) of:
+            - header, nav, article, aside, footer -->
+        <main>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde ducimus, suscipit voluptate eveniet temporibus quibusdam in at laboriosam est, laudantium, vitae alias? Officiis nesciunt nemo cum aut facilis repudiandae?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, doloribus deleniti autem dignissimos excepturi voluptate? Nostrum, minus eligendi? Temporibus fugit esse consequuntur officiis accusamus itaque cum in laborum. Maiores, quos!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tenetur itaque ratione vero quia alias. Temporibus impedit laborum assumenda rem, perferendis quia nam velit eaque debitis praesentium dignissimos ad accusamus.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, a. Libero numquam voluptas fugit quae quo quidem omnis aliquid, perferendis laborum sit impedit animi non sequi. Odit fuga nobis id?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi ullam rem quia, at delectus unde impedit deleniti inventore suscipit, soluta accusantium obcaecati odit! Nisi sunt soluta blanditiis explicabo consectetur!
+                    
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae tempore in mollitia iste doloremque cum architecto quasi porro, necessitatibus accusantium modi autem explicabo nostrum eveniet atque labore sequi! Obcaecati.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa culpa dolores recusandae odio dolor. Saepe consequuntur, inventore quibusdam maiores ipsam magni odio, veniam dolores quis earum maxime tempore, neque perspiciatis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ex voluptatum aliquam sunt hic possimus enim in, nisi ab ullam, odio nulla non architecto, debitis tempore optio ea voluptates similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto cumque asperiores cum accusamus natus nostrum at consequuntur quibusdam tempore omnis et nisi repellendus fugit ab excepturi voluptatibus, explica. 
+                </p>
+            </article>
+
+            <aside>
+                <!-- (a>img)*4 -->
+                <h2>Favorite Albums</h2>
+                <a target="_blank" href="./assets/Nathan_Sykes_-_Unfinished_Business.png"><img src="./assets/Nathan_Sykes_-_Unfinished_Business.png" alt="Unfinished Business - Nathan Sykes"></a>
+                <a target="_blank" href="./assets/41blQ1uxo-L._SY445_SX342_QL70_ML2_.jpg"><img src="./assets/41blQ1uxo-L._SY445_SX342_QL70_ML2_.jpg" alt="Narrated For You - Alec Benjamin"></a>
+                <a target="blank" href="./assets/81ucF7MxoeL._SL1441_.jpg"><img src="./assets/81ucF7MxoeL._SL1441_.jpg" alt="Trench - Twenty One Piolets"></a>
+                <a target="blank" href="./assets/91oiH6snQHL._SL1500_.jpg"><img src="./assets/91oiH6snQHL._SL1500_.jpg" alt="Perception - NF"></a>
+            </aside>
+        </main>
+    </section>
+
+    <!-- footers can contain: authorship info, copyright, contact info, a sitemap, related links/documents, back to top link -->
+    <footer>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates illo odio dolor itaque quam ex cupiditate, earum dicta dolore sequi maiores assumenda, doloribus rem necessitatibus cumque, natus officia blanditiis eos 2021 by Alayna M.</p>
+    </footer>
+
+</body>
+</html>                
